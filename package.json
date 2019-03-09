@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "nodemon --exec babel-node server/index",
-    "build": "babel server -d dist -s",
+    "postinstall": "babel server -d dist -s",
     "start": "node dist/index.js"
   },
   "repository": {
