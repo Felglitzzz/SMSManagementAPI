@@ -18,31 +18,10 @@ Click [here](https://documenter.getpostman.com/view/2988092/S11RJaT7) to view th
 ## How To Install
 
 1. Install [`node`](https://nodejs.org/en/download/), version 9 or greater
-
 2. Install [`mongodb`](https://docs.mongodb.com/v3.2/installation/)
-
-3. Clone the repository
-
-    ```
-    git clone https://github.com/Felglitzzz/SMSManagementAPI.git
-    ```
-4. Navigate to the project directory
-
-    ```
-    cd ~/path/to/SMSManagementAPI
-    ```
-
-5. Install all dependencies
-
-    ```
-    npm install
-    ```
+3. Clone the repository `git clone https://github.com/Felglitzzz/SMSManagementAPI.git`
+4. Navigate to the project directory `cd ~/path/to/SMSManagementAPI`
+5. Install all dependencies `npm i`
 6. Configure Mongo
-7. Start the app
-    ```
-    npm run start-dev
-    ```
-8. Navigate to the API home
-    ```
-    http://localhost:300/api/v1/home
-    ```
+7. Start the app `npm run start-dev`
+8. Navigate to the API home `http://localhost:300/api/v1/home`
