@@ -1,0 +1,43 @@
+{
+  "name": "smsmanagementapi",
+  "version": "1.0.0",
+  "description": "API for managing SMS",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon --exec babel-node server/index",
+    "build": "babel server -d dist -s",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felglitzzz/SMSManagementAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felglitzzz/SMSManagementAPI/issues"
+  },
+  "homepage": "https://github.com/Felglitzzz/SMSManagementAPI#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-regenerator": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16"
+  }
+}
