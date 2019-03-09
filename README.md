@@ -3,10 +3,10 @@
 Sms Management API is a light-weight API written in expressJs for managing SMS
 
 ## API Documentation
-Click here to view the detailed API documentation
+Click [here](https://documenter.getpostman.com/view/2988092/S11RJaT7) to view the detailed API documentation
 
 ## Take a Peek
-* API is hosted on https://smsmanagementapi.herokuapp.com/
+* API is hosted on heroku via this [link](https://smsmanagementapi.herokuapp.com/api/v1/home)
 
 ## Technologies Used
 
