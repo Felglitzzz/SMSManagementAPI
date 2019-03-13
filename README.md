@@ -19,8 +19,8 @@ Click [here](https://documenter.getpostman.com/view/2988092/S11RJaT7) to view th
 
 1. Install [`node`](https://nodejs.org/en/download/), version 9 or greater
 2. Install [`mongodb`](https://docs.mongodb.com/v3.2/installation/)
-3. Clone the repository `git clone https://github.com/Felglitzzz/Population-Management-API.git`
-4. Navigate to the project directory `cd ~/path/to/Population-Management-API`
+3. Clone the repository `git clone https://github.com/Felglitzzz/SMSManagementAPI.git`
+4. Navigate to the project directory `cd ~/path/to/SMSManagementAPI`
 5. Install all dependencies `npm i`
 6. Configure Mongo
 7. Start the app `npm run start-dev`
